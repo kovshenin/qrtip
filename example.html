@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>QR Tooltips for jQuery</title>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	<script src="qrtip-1.0-jquery.js"></script>
+	<link href="qrtip-1.0-jquery.css" rel="stylesheet" />
+	<link href="960.css" rel="stylesheet" />
+	
+	<script>
+		jQuery(document).ready(function() {
+			jQuery('a').qr({size: 100});
+		});
+	</script>
+	
+	<style>
+
+	</style>
+</head>
+<body>
+	<div class="container_12">
+		<h1 style="margin-top: 100px;">QR Tooltips for jQuery</h1>
+		<p>Hello there! This is a test project by <a href="http://kovshenin.com">Konstantin Kovshenin</a>, a code junkie from Moscow. 
+		This simple script allows you to add QR popups to your links. It's free and easy to use! Just include a stylesheet and a 
+		javascript file to your webpage, fire a jQuery command and voila!</p>
+		<pre>jQuery(document).ready(function() {
+    jQuery('a').qr();
+});</pre>
+		
+		<p>Yup! As easy as that! Check out the live demo below and the source code of this page (Ctrl+U).</p>
+		
+		<h1>Live Demo</h1>
+		<p>Hover on any of the links in the text below to see a the demo live.</p>
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tempus velit. Integer lectus augue, volutpat eu fringilla non, 
+		bibendum id arcu. Mauris mollis tortor <a href="http://google.com">quis odio commodo</a> eget condimentum odio malesuada. Proin id turpis vitae eros porttitor tempor. 
+		Aliquam tincidunt convallis semper. Quisque purus nisi, bibendum sed dignissim bibendum, aliquam sit amet tortor. Donec sit amet justo sit 
+		amet enim volutpat hendrerit eu ac magna. Donec tempor magna nec mauris dictum tincidunt.</p>
+		
+		<p>Vestibulum sed neque vel diam tincidunt feugiat sit amet a metus. Vivamus mauris augue, convallis id aliquet ultricies, euismod sed sem. Proin et ornare nibh. Nullam felis tortor, 
+		euismod eget tincidunt sed, egestas quis diam. <a href="http://google.com">Duis eget tortor</a> vel lacus porttitor facilisis in a lorem. <a href="http://google.com">Ut gravida posuere</a> dolor, at 
+		egestas mauris iaculis faucibus. Praesent interdum, lectus sit amet facilisis porttitor, justo ligula tincidunt neque, sit amet ornare tellus 
+		ligula eget nulla. Fusce iaculis <a href="http://google.com">feugiat laoreet</a>. Integer molestie leo at magna pellentesque eget ornare diam hendrerit.</p>
+		
+		<h1>Behind the Scenes</h1>
+		<p>Well, I basically took the <a href="http://goo.gl/ji3Iw">ColorTip jQuery</a> plugin and wrote a 
+		little bit of extra code inside that injects images inside the tooltips. The actual images are coming from the <a href="http://goo.gl/coY6A">Google Charts API</a> and voila!</p>
+	</div>
+</body>
+</html>
