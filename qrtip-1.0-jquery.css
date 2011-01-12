@@ -45,6 +45,11 @@
 	text-decoration:none !important;
 }
 
+.colorTip img {
+	padding: 5px;
+	background: white;
+}
+
 
 /* 6 Available Color Themes */
 
