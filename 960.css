@@ -338,6 +338,10 @@
 }
 
 /* QR Tooltips specific */
+h1, h2, h3 {
+	text-shadow: #CCC 1px 1px 3px;
+}
+
 pre {
 	background: #f4f4f4;
 	padding: 10px;
